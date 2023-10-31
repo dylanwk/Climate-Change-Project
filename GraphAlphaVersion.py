@@ -12,7 +12,7 @@ us_df = df[df['Country'] == 'United States']
 # Extracted Average Tempurature Value 
 us_df = us_df[['dt', 'AverageTemperature']]
 
-# Converted Average Tempurature Value from Celsius to Fahrenhiet 10/26
+# Converted Average Tempurature Value from Celsius to Fahrenhiet 10/31
 us_df['AverageTemperature'] = (us_df['AverageTemperature'] * 9/5) + 32
 
 # Converted the 'dt' column to a datetime object 10/24
