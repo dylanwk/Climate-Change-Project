@@ -6,8 +6,12 @@ import matplotlib.pyplot as plt
 # Loaded the CSV file into a pandas DataFrame 10/24
 df = pd.read_csv("GlobalLandTempuratures.csv")
 
-# Filtered country value to only show United States data 10/24
-us_df = df[df['Country'] == 'United States']
+
+# Get county from user. No input validation added 11/14
+userInput = input("Enter a Country (capitalized): ")
+
+# Filtered country value to only show user's country 11/14
+us_df = df[df['Country'] == userInput]
 
 # Extracted Average Tempurature Value 
 us_df = us_df[['dt', 'AverageTemperature']]
