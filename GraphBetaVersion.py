@@ -34,7 +34,7 @@ yearly_avg_temp = us_df.groupby('Year')['AverageTemperature'].mean()
 # Created line plot 10/26
 plt.figure(figsize=(12, 6))
 plt.plot(yearly_avg_temp.index, yearly_avg_temp.values, marker='o', linestyle='-', color='b')
-plt.title('Average Temperature in the United States Over the Years 1920 to 2020')
+plt.title('Average Temperature in ' + userInput + ' over the Years 1920 to 2020')
 plt.xlabel('Year')
 plt.xlim([1920, 2020])             # Filtered year values to only the past century 10/31
 plt.ylabel('Temperature (°F)')
