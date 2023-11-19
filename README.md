@@ -7,9 +7,9 @@ Our team is dedicated to addressing the crucial issue of climate change. Climate
 
 Trusted Data Providers:
 
-National Snow and Ice Data Center (NSIDC)
-Our World in Data
-Berkeley Earth
+- National Snow and Ice Data Center (NSIDC)
+- Our World in Data
+- Berkeley Earth
 
 We believe that by leveraging data from reputable sources such as the National Snow and Ice Data Center, Our World in Data, and Berkeley Earth, ClimateView provides reliable and up-to-date information to inform users on the impact of climate change globally."
 
